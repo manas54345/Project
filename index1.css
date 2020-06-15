@@ -1,0 +1,29 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e0695c; }
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center; }
+
+th {
+  background-color: lightgray; }
+
+.desp p {
+  font-size: 21px;
+  text-align: center; }
+
+div ol {
+  font-size: 21px; }
+
+.container-fluid {
+  text-align: center;
+  font-family: fantasy; }
+
+/*# sourceMappingURL=index1.css.map */

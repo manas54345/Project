@@ -1,0 +1,48 @@
+$background-color:lightgray;
+$color:black;
+
+table{
+  border: 2px solid $color;
+  border-collapse:collapse;
+  width: 50%;
+  border:1px
+  solid black;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #e0695c;
+
+}
+
+th, td {
+  border: 1px solid $color;
+  padding: 5px;
+  text-align: center;
+}
+th{
+  background-color: $background-color;
+}
+
+.desp{
+  p{
+    font-size: 21px;
+    text-align: center;
+  }
+}
+
+div{
+  ol{
+    font-size: 21px;
+  }
+}
+
+
+
+%message{
+  text-align: center;
+  font-family: fantasy;
+
+}
+
+.container-fluid{
+  @extend %message;
+}
